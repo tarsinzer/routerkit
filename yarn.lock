@@ -2757,7 +2757,7 @@ all-contributors-cli@6.24.0:
     pify "^5.0.0"
     yargs "^15.0.1"
 
-ansi-colors@4.1.3:
+ansi-colors@4.1.3, ansi-colors@^4.1.3:
   version "4.1.3"
   resolved "https://registry.yarnpkg.com/ansi-colors/-/ansi-colors-4.1.3.tgz#37611340eb2243e70cc604cad35d63270d48781b"
   integrity sha512-/6w/C21Pm1A7aZitlI5Ni/2J6FFQN8i1Cvz3kHABAAbw93v/NlvKdVOqz7CCWz/3iv/JplRSEEZ83XION15ovw==
@@ -3695,7 +3695,7 @@ cross-spawn@^7.0.3:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
-crosspath@2.0.0:
+crosspath@2.0.0, crosspath@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/crosspath/-/crosspath-2.0.0.tgz#5714f30c6541cc776103754954602ce0d25f126c"
   integrity sha512-ju88BYCQ2uvjO2bR+SsgLSTwTSctU+6Vp2ePbKPgSCZyy4MWZxYsT738DlKVRE5utUjobjPRm1MkTYKJxCmpTA==
@@ -8700,11 +8700,13 @@ tree-kill@1.2.2:
   resolved "https://registry.yarnpkg.com/tree-kill/-/tree-kill-1.2.2.tgz#4ca09a9092c88b73a7cdc5e8a01b507b0790a0cc"
   integrity sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==
 
-ts-evaluator@0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/ts-evaluator/-/ts-evaluator-0.2.0.tgz#86fa63b3326a700e62c595a75a9d3597df650d6d"
-  integrity sha512-doLHwoPHbbT1sUALz26vJJsLclRcJcTRaSCzTq0LhJLh+rwQSUn3HJExYhRRmOAQIls4E2nG0/+MR1pEh0LARw==
+ts-evaluator@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/ts-evaluator/-/ts-evaluator-1.2.0.tgz#046ea597417046c7fe31d100502a927c5a55c200"
+  integrity sha512-ncSGek1p92bj2ifB7s9UBgryHCkU9vwC5d+Lplt12gT9DH+e41X8dMoHRQjIMeAvyG7j9dEnuHmwgOtuRIQL+Q==
   dependencies:
+    ansi-colors "^4.1.3"
+    crosspath "^2.0.0"
     object-path "^0.11.8"
 
 ts-jest@^28.0.0:

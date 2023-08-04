@@ -18,7 +18,7 @@
     "crosspath": "2.0.0",
     "ora": "5.4.1",
     "picocolors": "1.0.0",
-    "ts-evaluator": "0.2.0",
+    "ts-evaluator": "1.2.0",
     "ts-morph": "16.0.0",
     "tslib": "2.4.0"
   },
