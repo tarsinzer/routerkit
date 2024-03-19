@@ -56,7 +56,7 @@
     "@angular/compiler-cli": "14.2.12",
     "@angular/language-service": "14.2.12",
     "@types/jest": "28.1.8",
-    "@types/node": "18.6.2",
+    "@types/node": "18.19.26",
     "all-contributors-cli": "6.24.0",
     "codelyzer": "6.0.2",
     "jest": "28.1.3",
